@@ -22,9 +22,13 @@ Conway's Game of Life is a one-dimensional simulation game devised by mathematic
 - Upon running the program, a window with a tkinter-based user interface will appear.
 - Available options include:
     - "Show Board": Displays the current state of the board in the console.
-    - "Do 1 Iteration": Performs one iteration of the game and displays the current state of the board in the GUI.
+    - "Do Iterations": Performs number of animation speed iterations of the game and displays the current state of the board in the GUI.
     - "Show Evolution": Displays a chart depicting the evolution of the number of live cells over iterations.
     - "Exit": Closes the program.
+    - "Clear Boad": Clears the board
+    - "Save Board": Saves a txt with current board
+    - "Load Board": Load a txt file with board and displays it
+    - "Animation Speed": Changes a number of iterations that "Do iterations" do
 
 ### Game Rules
 
