@@ -1,0 +1,4 @@
+random
+numpy
+matplotlib.pyplot 
+tkinter 

@@ -2,7 +2,6 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 import tkinter as tk
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 #list of options where "0"=alive cell and "."=dead cell
 list_of_options = ["0", "."]
@@ -175,7 +174,9 @@ class GameOfLife:
         """
         self.root.mainloop()
 
+def main():
+    game=GameOfLife()
+    game.run_gui()
 
 if __name__ == "__main__":
-    game = GameOfLife()
-    game.run_gui()
+    main()
