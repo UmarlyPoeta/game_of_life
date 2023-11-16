@@ -45,9 +45,6 @@ class GameOfLife:
         self.load_board_button = tk.Button(self.root, text="Load Board", command=self.load_board)
         self.load_board_button.pack(side=tk.LEFT)
 
-        self.change_size_button = tk.Button(self.root, text="Change Size", command=self.change_size)
-        self.change_size_button.pack(side=tk.LEFT)
-
         self.speed_scale = tk.Scale(self.root, label="Animation Speed", from_=1, to=10, orient=tk.HORIZONTAL)
         self.speed_scale.set(5)
         self.speed_scale.pack(side=tk.LEFT)
